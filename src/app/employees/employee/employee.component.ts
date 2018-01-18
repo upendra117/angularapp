@@ -15,7 +15,7 @@ import { Employee } from '../shared/employee.model';
 export class EmployeeComponent implements OnInit {
 
   constructor(
-    private employeeService: EmployeeService,
+    public employeeService: EmployeeService,
     private toastrService: ToastrService
   ) { }
 
